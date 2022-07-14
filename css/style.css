@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+body{
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 45%;
+}
+
+nav,h1, footer h1{
+    font-family: 'Coiny', cursive;
+    
+}
+
+header h1{
+    font-size: 41px;
+    font-weight: 700;
+}
+
+h1,h2,h3,h4 .item{
+    color: black;
+}
+
+h2,h3{
+    font-size: 20px;
+    background-color: #fcee21;
+}
+
+h2{
+    font-weight: none;
+}
+
+h3{
+    font-size: 26px;
+    display: inline;
+}
+
+footer{
+    height: 100px;
+    padding: 10px;
+    background-color: #fcee21;    
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    margin: 0;
+    font-size: 51px;
+    color: white;
+    background-color: black;
+    line-height: 100px;
+    padding: 10px;
+    display: inline;
+}
+
+footer h1{
+    font-size: 33px;
+}
+
+.services img{
+    width: 100%;    
+}
+
+main{
+    font-size: 21px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav h1{
+    margin-right: auto;
+}
+
+nav a, footer a{
+    margin-left: 20px;
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a{
+    text-transform: capitalize;
+}
+
+footer, main, header, aside{
+    width: 100%;
+}
+
+aside a img{    
+    height: auto;
+    width: 50%;
+}
+
+aside{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header img{
+    width: 70%;
+    margin-left: 30%;
+}
+
+section img{
+    width: 70%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol li{
+    margin-bottom: 6%;
+}
+
+ol{
+    font-size: 2em;
+    font-weight: 400;
+    list-style-position: inside;
+}
+
+span{
+    color: red;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    height: 40px;
+}
+
+input,textarea{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+form{
+    margin: auto;
+    
+}
+
+.grande{
+    font-size: 100px;
+    font-family: 'Coiny', cursive;
+}
+
+.item{
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #fcee21;
+}
+
+.encolumnar{
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+.encolumnar section{
+    width: 47%;
+}
+.boton{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#titulo{
+    font-size: 40px;
+}
+
+header.encolumnar, aside.encolumnar{
+    border-bottom: none;
+}
+
+#imagen{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
